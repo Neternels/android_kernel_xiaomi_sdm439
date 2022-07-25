@@ -51,7 +51,7 @@ export PROCS
 export COMPILER=clang
 
 # Module building support. Set 1 to enable. | Set 0 to disable.
-export MODULE=0
+export MODULE=1
 
 # Requirements
 if [ "${ci}" != 1 ]; then
